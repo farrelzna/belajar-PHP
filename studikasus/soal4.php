@@ -1,6 +1,5 @@
 <?php
 
-$harga = 0;
 
 $barang = [
     [
@@ -18,9 +17,10 @@ $barang = [
         'harga_barang' => 15000,
         'jumlah_beli' => 4
     ]
-];
+];  //array
 
 
+$harga = 0;
 foreach($barang as $item){
     $harga += ($item['harga_barang'] * $item['jumlah_beli']);
 }

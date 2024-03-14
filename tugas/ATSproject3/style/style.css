@@ -1,0 +1,19 @@
+body{
+  background-color: aqua;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+p, h3, td {
+  font-family: "Roboto", sans-serif ;
+}
+
+button{  
+  font-size:15px ;
+  height: 40px;
+  width: auto;
+  
+}
